@@ -17,11 +17,11 @@ roles:
   - data_warm
   - data_cold
   - ingest
-  - ml
   - remote_cluster_client
-  - transform
 
-replicas: 3
+
+replicas: 2
+
 minimumMasterNodes: 2
 
 esMajorVersion: ""
